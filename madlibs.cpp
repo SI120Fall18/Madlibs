@@ -30,8 +30,42 @@ int main()
   } else if(number == 2) {
     std::string name, noun, type_of_fluid, substance;
 
-    std::cin.ignore;
-    
+    std::cin.ignore();
+    std::cout << "Enter a name: "
+    std::getline(std::cin,name);
+
+    std::cout << "Enter an noun: "
+    std::getline(std::cin, noun);
+
+    std::cout << "Enter an type of fluid: "
+    std::getline(std::cin, type_of_fluid);
+
+    std::cout << "Enter an substance: "
+    std::getline(std::cin, substance);
+
+    std::cout << name << " is sick \n with the " << noun << " flu. "
+    << "\n Drink more " << type_of_fluid << " and \n take " << substance
+    << " as needed." << std::endl
+
+
+  } else if(number == 3) {
+    std::string name, place, noun;
+
+    std::cin.ignore();
+    std::cout << "Enter a name: "
+    std::getline(std::cin,name);
+
+    std::cout << "Enter an place: "
+    std::getline(std::cin, place);
+
+    std::cout << "Enter an noun: "
+    std::getline(std::cin, noun);
+
+    std::cout << noun << " is authorized \n to be at "
+    << place << std::endl << " instead of " << noun <<" class."
+    << std::endl
+
+
   }
 
 
