@@ -1,3 +1,5 @@
+// This is madlibs using if/else if/else statements
+
 #include <iostream>
 #include <iomanip>
 
@@ -70,6 +72,8 @@ int main()
     std::string name,
                 noun,
                 event;
+
+    std::cin.ignore();
 
     std::cout << "Enter a name: ";
     std::getline(std::cin, name);
