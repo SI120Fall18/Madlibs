@@ -84,6 +84,8 @@ int main()
                << "for " << noun << " class.\n"
                << "instead, she/he will be\n"
                << "attending the " << event << ".\n";
+
+               
   } else {
     std::cout << "YOU ENTERED THE WRONG VALUE! I SAID 1-4!!   ＼(｀0´)／" << std::endl;
   }
